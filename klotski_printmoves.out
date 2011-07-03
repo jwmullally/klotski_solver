@@ -1,0 +1,683 @@
+w1 w1 g1 g2 _1 
+r  r  w2 w3 w4 
+r  r  w2 w3 w4 
+w5 w5 g3 g4 _2 
+
+1 ('w4', -1, 0) Up
+w1 w1 g1 g2 w4 
+r  r  w2 w3 w4 
+r  r  w2 w3 _1 
+w5 w5 g3 g4 _2 
+
+2 ('g4', 0, 1) Right
+w1 w1 g1 g2 w4 
+r  r  w2 w3 w4 
+r  r  w2 w3 _1 
+w5 w5 g3 _2 g4 
+
+3 ('g4', -1, 0) Up
+w1 w1 g1 g2 w4 
+r  r  w2 w3 w4 
+r  r  w2 w3 g4 
+w5 w5 g3 _2 _1 
+
+4 ('g3', 0, 2) Right 2
+w1 w1 g1 g2 w4 
+r  r  w2 w3 w4 
+r  r  w2 w3 g4 
+w5 w5 _1 _2 g3 
+
+5 ('w5', 0, 2) Right 2
+w1 w1 g1 g2 w4 
+r  r  w2 w3 w4 
+r  r  w2 w3 g4 
+_2 _1 w5 w5 g3 
+
+6 ('r', 1, 0) Down
+w1 w1 g1 g2 w4 
+_2 _1 w2 w3 w4 
+r  r  w2 w3 g4 
+r  r  w5 w5 g3 
+
+7 ('w1', 1, 0) Down
+_1 _2 g1 g2 w4 
+w1 w1 w2 w3 w4 
+r  r  w2 w3 g4 
+r  r  w5 w5 g3 
+
+8 ('g1', 0, -2) Left 2
+g1 _2 _1 g2 w4 
+w1 w1 w2 w3 w4 
+r  r  w2 w3 g4 
+r  r  w5 w5 g3 
+
+9 ('g2', 0, -2) Left 2
+g1 g2 _1 _2 w4 
+w1 w1 w2 w3 w4 
+r  r  w2 w3 g4 
+r  r  w5 w5 g3 
+
+10 ('w2', -1, 0) Up
+g1 g2 w2 _2 w4 
+w1 w1 w2 w3 w4 
+r  r  _1 w3 g4 
+r  r  w5 w5 g3 
+
+11 ('w3', -1, 0) Up
+g1 g2 w2 w3 w4 
+w1 w1 w2 w3 w4 
+r  r  _1 _2 g4 
+r  r  w5 w5 g3 
+
+12 ('w5', -1, 0) Up
+g1 g2 w2 w3 w4 
+w1 w1 w2 w3 w4 
+r  r  w5 w5 g4 
+r  r  _2 _1 g3 
+
+13 ('g3', 0, -2) Left 2
+g1 g2 w2 w3 w4 
+w1 w1 w2 w3 w4 
+r  r  w5 w5 g4 
+r  r  g3 _1 _2 
+
+14 ('g4', 1, 0) Down
+g1 g2 w2 w3 w4 
+w1 w1 w2 w3 w4 
+r  r  w5 w5 _2 
+r  r  g3 _1 g4 
+
+15 ('w4', 1, 0) Down
+g1 g2 w2 w3 _2 
+w1 w1 w2 w3 w4 
+r  r  w5 w5 w4 
+r  r  g3 _1 g4 
+
+16 ('g4', 0, -1) Left
+g1 g2 w2 w3 _2 
+w1 w1 w2 w3 w4 
+r  r  w5 w5 w4 
+r  r  g3 g4 _1 
+
+17 ('w4', 1, 0) Down
+g1 g2 w2 w3 _2 
+w1 w1 w2 w3 _1 
+r  r  w5 w5 w4 
+r  r  g3 g4 w4 
+
+18 ('w3', 0, 1) Right
+g1 g2 w2 _2 w3 
+w1 w1 w2 _1 w3 
+r  r  w5 w5 w4 
+r  r  g3 g4 w4 
+
+19 ('w2', 0, 1) Right
+g1 g2 _1 w2 w3 
+w1 w1 _2 w2 w3 
+r  r  w5 w5 w4 
+r  r  g3 g4 w4 
+
+20 ('g2', 0, 1) Right
+g1 _1 g2 w2 w3 
+w1 w1 _2 w2 w3 
+r  r  w5 w5 w4 
+r  r  g3 g4 w4 
+
+21 ('g1', 0, 1) Right
+_1 g1 g2 w2 w3 
+w1 w1 _2 w2 w3 
+r  r  w5 w5 w4 
+r  r  g3 g4 w4 
+
+22 ('g2', 1, 0) Down
+_1 g1 _2 w2 w3 
+w1 w1 g2 w2 w3 
+r  r  w5 w5 w4 
+r  r  g3 g4 w4 
+
+23 ('g1', 0, 1) Right
+_1 _2 g1 w2 w3 
+w1 w1 g2 w2 w3 
+r  r  w5 w5 w4 
+r  r  g3 g4 w4 
+
+24 ('w1', -1, 0) Up
+w1 w1 g1 w2 w3 
+_2 _1 g2 w2 w3 
+r  r  w5 w5 w4 
+r  r  g3 g4 w4 
+
+25 ('r', -1, 0) Up
+w1 w1 g1 w2 w3 
+r  r  g2 w2 w3 
+r  r  w5 w5 w4 
+_2 _1 g3 g4 w4 
+
+26 ('g3', 0, -2) Left 2
+w1 w1 g1 w2 w3 
+r  r  g2 w2 w3 
+r  r  w5 w5 w4 
+g3 _1 _2 g4 w4 
+
+27 ('g4', 0, -2) Left 2
+w1 w1 g1 w2 w3 
+r  r  g2 w2 w3 
+r  r  w5 w5 w4 
+g3 g4 _2 _1 w4 
+
+28 ('w5', 1, 0) Down
+w1 w1 g1 w2 w3 
+r  r  g2 w2 w3 
+r  r  _1 _2 w4 
+g3 g4 w5 w5 w4 
+
+29 ('w2', 1, 0) Down
+w1 w1 g1 _2 w3 
+r  r  g2 w2 w3 
+r  r  _1 w2 w4 
+g3 g4 w5 w5 w4 
+
+30 ('g1', 0, 1) Right
+w1 w1 _2 g1 w3 
+r  r  g2 w2 w3 
+r  r  _1 w2 w4 
+g3 g4 w5 w5 w4 
+
+31 ('g2', -1, 0) Up
+w1 w1 g2 g1 w3 
+r  r  _2 w2 w3 
+r  r  _1 w2 w4 
+g3 g4 w5 w5 w4 
+
+32 ('w2', 0, -1) Left
+w1 w1 g2 g1 w3 
+r  r  w2 _2 w3 
+r  r  w2 _1 w4 
+g3 g4 w5 w5 w4 
+
+33 ('g1', 2, 0) Down 2
+w1 w1 g2 _1 w3 
+r  r  w2 _2 w3 
+r  r  w2 g1 w4 
+g3 g4 w5 w5 w4 
+
+34 ('w3', 0, -1) Left
+w1 w1 g2 w3 _1 
+r  r  w2 w3 _2 
+r  r  w2 g1 w4 
+g3 g4 w5 w5 w4 
+
+35 ('w4', -2, 0) Up 2
+w1 w1 g2 w3 w4 
+r  r  w2 w3 w4 
+r  r  w2 g1 _1 
+g3 g4 w5 w5 _2 
+
+36 ('g1', 0, 1) Right
+w1 w1 g2 w3 w4 
+r  r  w2 w3 w4 
+r  r  w2 _1 g1 
+g3 g4 w5 w5 _2 
+
+37 ('w3', 1, 0) Down
+w1 w1 g2 _1 w4 
+r  r  w2 w3 w4 
+r  r  w2 w3 g1 
+g3 g4 w5 w5 _2 
+
+38 ('w5', 0, 1) Right
+w1 w1 g2 _1 w4 
+r  r  w2 w3 w4 
+r  r  w2 w3 g1 
+g3 g4 _2 w5 w5 
+
+39 ('w2', 1, 0) Down
+w1 w1 g2 _1 w4 
+r  r  _2 w3 w4 
+r  r  w2 w3 g1 
+g3 g4 w2 w5 w5 
+
+40 ('g2', 1, 0) Down
+w1 w1 _2 _1 w4 
+r  r  g2 w3 w4 
+r  r  w2 w3 g1 
+g3 g4 w2 w5 w5 
+
+41 ('w1', 0, 2) Right 2
+_1 _2 w1 w1 w4 
+r  r  g2 w3 w4 
+r  r  w2 w3 g1 
+g3 g4 w2 w5 w5 
+
+42 ('r', -1, 0) Up
+r  r  w1 w1 w4 
+r  r  g2 w3 w4 
+_2 _1 w2 w3 g1 
+g3 g4 w2 w5 w5 
+
+43 ('g4', -1, 0) Up
+r  r  w1 w1 w4 
+r  r  g2 w3 w4 
+_2 g4 w2 w3 g1 
+g3 _1 w2 w5 w5 
+
+44 ('g4', 0, -1) Left
+r  r  w1 w1 w4 
+r  r  g2 w3 w4 
+g4 _2 w2 w3 g1 
+g3 _1 w2 w5 w5 
+
+45 ('w2', 0, -1) Left
+r  r  w1 w1 w4 
+r  r  g2 w3 w4 
+g4 w2 _1 w3 g1 
+g3 w2 _2 w5 w5 
+
+46 ('g2', 1, 0) Down
+r  r  w1 w1 w4 
+r  r  _1 w3 w4 
+g4 w2 g2 w3 g1 
+g3 w2 _2 w5 w5 
+
+47 ('w5', 0, -1) Left
+r  r  w1 w1 w4 
+r  r  _1 w3 w4 
+g4 w2 g2 w3 g1 
+g3 w2 w5 w5 _2 
+
+48 ('g1', 1, 0) Down
+r  r  w1 w1 w4 
+r  r  _1 w3 w4 
+g4 w2 g2 w3 _2 
+g3 w2 w5 w5 g1 
+
+49 ('w4', 1, 0) Down
+r  r  w1 w1 _2 
+r  r  _1 w3 w4 
+g4 w2 g2 w3 w4 
+g3 w2 w5 w5 g1 
+
+50 ('w1', 0, 1) Right
+r  r  _2 w1 w1 
+r  r  _1 w3 w4 
+g4 w2 g2 w3 w4 
+g3 w2 w5 w5 g1 
+
+51 ('r', 0, 1) Right
+_1 r  r  w1 w1 
+_2 r  r  w3 w4 
+g4 w2 g2 w3 w4 
+g3 w2 w5 w5 g1 
+
+52 ('g4', -2, 0) Up 2
+g4 r  r  w1 w1 
+_2 r  r  w3 w4 
+_1 w2 g2 w3 w4 
+g3 w2 w5 w5 g1 
+
+53 ('g3', -2, 0) Up 2
+g4 r  r  w1 w1 
+g3 r  r  w3 w4 
+_1 w2 g2 w3 w4 
+_2 w2 w5 w5 g1 
+
+54 ('w2', 0, -1) Left
+g4 r  r  w1 w1 
+g3 r  r  w3 w4 
+w2 _1 g2 w3 w4 
+w2 _2 w5 w5 g1 
+
+55 ('g2', 0, -1) Left
+g4 r  r  w1 w1 
+g3 r  r  w3 w4 
+w2 g2 _1 w3 w4 
+w2 _2 w5 w5 g1 
+
+56 ('g2', 1, 0) Down
+g4 r  r  w1 w1 
+g3 r  r  w3 w4 
+w2 _2 _1 w3 w4 
+w2 g2 w5 w5 g1 
+
+57 ('r', 1, 0) Down
+g4 _2 _1 w1 w1 
+g3 r  r  w3 w4 
+w2 r  r  w3 w4 
+w2 g2 w5 w5 g1 
+
+58 ('g4', 0, 2) Right 2
+_1 _2 g4 w1 w1 
+g3 r  r  w3 w4 
+w2 r  r  w3 w4 
+w2 g2 w5 w5 g1 
+
+59 ('g3', -1, 0) Up
+g3 _2 g4 w1 w1 
+_1 r  r  w3 w4 
+w2 r  r  w3 w4 
+w2 g2 w5 w5 g1 
+
+60 ('g3', 0, 1) Right
+_2 g3 g4 w1 w1 
+_1 r  r  w3 w4 
+w2 r  r  w3 w4 
+w2 g2 w5 w5 g1 
+
+61 ('w2', -2, 0) Up 2
+w2 g3 g4 w1 w1 
+w2 r  r  w3 w4 
+_1 r  r  w3 w4 
+_2 g2 w5 w5 g1 
+
+62 ('g2', 0, -1) Left
+w2 g3 g4 w1 w1 
+w2 r  r  w3 w4 
+_1 r  r  w3 w4 
+g2 _2 w5 w5 g1 
+
+63 ('g2', -1, 0) Up
+w2 g3 g4 w1 w1 
+w2 r  r  w3 w4 
+g2 r  r  w3 w4 
+_1 _2 w5 w5 g1 
+
+64 ('w5', 0, -2) Left 2
+w2 g3 g4 w1 w1 
+w2 r  r  w3 w4 
+g2 r  r  w3 w4 
+w5 w5 _2 _1 g1 
+
+65 ('g1', 0, -2) Left 2
+w2 g3 g4 w1 w1 
+w2 r  r  w3 w4 
+g2 r  r  w3 w4 
+w5 w5 g1 _1 _2 
+
+66 ('w3', 1, 0) Down
+w2 g3 g4 w1 w1 
+w2 r  r  _1 w4 
+g2 r  r  w3 w4 
+w5 w5 g1 w3 _2 
+
+67 ('w4', 1, 0) Down
+w2 g3 g4 w1 w1 
+w2 r  r  _1 _2 
+g2 r  r  w3 w4 
+w5 w5 g1 w3 w4 
+
+68 ('w1', 1, 0) Down
+w2 g3 g4 _2 _1 
+w2 r  r  w1 w1 
+g2 r  r  w3 w4 
+w5 w5 g1 w3 w4 
+
+69 ('g4', 0, 2) Right 2
+w2 g3 _1 _2 g4 
+w2 r  r  w1 w1 
+g2 r  r  w3 w4 
+w5 w5 g1 w3 w4 
+
+70 ('g3', 0, 2) Right 2
+w2 _2 _1 g3 g4 
+w2 r  r  w1 w1 
+g2 r  r  w3 w4 
+w5 w5 g1 w3 w4 
+
+71 ('r', -1, 0) Up
+w2 r  r  g3 g4 
+w2 r  r  w1 w1 
+g2 _2 _1 w3 w4 
+w5 w5 g1 w3 w4 
+
+72 ('g1', -1, 0) Up
+w2 r  r  g3 g4 
+w2 r  r  w1 w1 
+g2 _2 g1 w3 w4 
+w5 w5 _1 w3 w4 
+
+73 ('w5', 0, 1) Right
+w2 r  r  g3 g4 
+w2 r  r  w1 w1 
+g2 _2 g1 w3 w4 
+_1 w5 w5 w3 w4 
+
+74 ('g2', 0, 1) Right
+w2 r  r  g3 g4 
+w2 r  r  w1 w1 
+_2 g2 g1 w3 w4 
+_1 w5 w5 w3 w4 
+
+75 ('w2', 2, 0) Down 2
+_1 r  r  g3 g4 
+_2 r  r  w1 w1 
+w2 g2 g1 w3 w4 
+w2 w5 w5 w3 w4 
+
+76 ('r', 0, -1) Left
+r  r  _1 g3 g4 
+r  r  _2 w1 w1 
+w2 g2 g1 w3 w4 
+w2 w5 w5 w3 w4 
+
+77 ('g3', 0, -1) Left
+r  r  g3 _1 g4 
+r  r  _2 w1 w1 
+w2 g2 g1 w3 w4 
+w2 w5 w5 w3 w4 
+
+78 ('g4', 0, -1) Left
+r  r  g3 g4 _1 
+r  r  _2 w1 w1 
+w2 g2 g1 w3 w4 
+w2 w5 w5 w3 w4 
+
+79 ('w1', 0, -1) Left
+r  r  g3 g4 _1 
+r  r  w1 w1 _2 
+w2 g2 g1 w3 w4 
+w2 w5 w5 w3 w4 
+
+80 ('w4', -2, 0) Up 2
+r  r  g3 g4 w4 
+r  r  w1 w1 w4 
+w2 g2 g1 w3 _1 
+w2 w5 w5 w3 _2 
+
+81 ('w3', 0, 1) Right
+r  r  g3 g4 w4 
+r  r  w1 w1 w4 
+w2 g2 g1 _2 w3 
+w2 w5 w5 _1 w3 
+
+82 ('w5', 0, 1) Right
+r  r  g3 g4 w4 
+r  r  w1 w1 w4 
+w2 g2 g1 _2 w3 
+w2 _1 w5 w5 w3 
+
+83 ('g2', 1, 0) Down
+r  r  g3 g4 w4 
+r  r  w1 w1 w4 
+w2 _1 g1 _2 w3 
+w2 g2 w5 w5 w3 
+
+84 ('g1', 0, -1) Left
+r  r  g3 g4 w4 
+r  r  w1 w1 w4 
+w2 g1 _1 _2 w3 
+w2 g2 w5 w5 w3 
+
+85 ('w1', 1, 0) Down
+r  r  g3 g4 w4 
+r  r  _2 _1 w4 
+w2 g1 w1 w1 w3 
+w2 g2 w5 w5 w3 
+
+86 ('g4', 1, 0) Down
+r  r  g3 _1 w4 
+r  r  _2 g4 w4 
+w2 g1 w1 w1 w3 
+w2 g2 w5 w5 w3 
+
+87 ('g3', 0, 1) Right
+r  r  _1 g3 w4 
+r  r  _2 g4 w4 
+w2 g1 w1 w1 w3 
+w2 g2 w5 w5 w3 
+
+88 ('r', 0, 1) Right
+_1 r  r  g3 w4 
+_2 r  r  g4 w4 
+w2 g1 w1 w1 w3 
+w2 g2 w5 w5 w3 
+
+89 ('w2', -2, 0) Up 2
+w2 r  r  g3 w4 
+w2 r  r  g4 w4 
+_1 g1 w1 w1 w3 
+_2 g2 w5 w5 w3 
+
+90 ('g1', 0, -1) Left
+w2 r  r  g3 w4 
+w2 r  r  g4 w4 
+g1 _1 w1 w1 w3 
+_2 g2 w5 w5 w3 
+
+91 ('w1', 0, -1) Left
+w2 r  r  g3 w4 
+w2 r  r  g4 w4 
+g1 w1 w1 _1 w3 
+_2 g2 w5 w5 w3 
+
+92 ('g2', 0, -1) Left
+w2 r  r  g3 w4 
+w2 r  r  g4 w4 
+g1 w1 w1 _1 w3 
+g2 _2 w5 w5 w3 
+
+93 ('w5', 0, -1) Left
+w2 r  r  g3 w4 
+w2 r  r  g4 w4 
+g1 w1 w1 _1 w3 
+g2 w5 w5 _2 w3 
+
+94 ('w3', 0, -1) Left
+w2 r  r  g3 w4 
+w2 r  r  g4 w4 
+g1 w1 w1 w3 _1 
+g2 w5 w5 w3 _2 
+
+95 ('w4', 2, 0) Down 2
+w2 r  r  g3 _1 
+w2 r  r  g4 _2 
+g1 w1 w1 w3 w4 
+g2 w5 w5 w3 w4 
+
+96 ('g3', 0, 1) Right
+w2 r  r  _1 g3 
+w2 r  r  g4 _2 
+g1 w1 w1 w3 w4 
+g2 w5 w5 w3 w4 
+
+97 ('g4', 0, 1) Right
+w2 r  r  _1 g3 
+w2 r  r  _2 g4 
+g1 w1 w1 w3 w4 
+g2 w5 w5 w3 w4 
+
+98 ('r', 0, 1) Right
+w2 _2 r  r  g3 
+w2 _1 r  r  g4 
+g1 w1 w1 w3 w4 
+g2 w5 w5 w3 w4 
+
+99 ('w2', 0, 1) Right
+_1 w2 r  r  g3 
+_2 w2 r  r  g4 
+g1 w1 w1 w3 w4 
+g2 w5 w5 w3 w4 
+
+100 ('g1', -2, 0) Up 2
+g1 w2 r  r  g3 
+_2 w2 r  r  g4 
+_1 w1 w1 w3 w4 
+g2 w5 w5 w3 w4 
+
+101 ('g2', -2, 0) Up 2
+g1 w2 r  r  g3 
+g2 w2 r  r  g4 
+_1 w1 w1 w3 w4 
+_2 w5 w5 w3 w4 
+
+102 ('w1', 0, -1) Left
+g1 w2 r  r  g3 
+g2 w2 r  r  g4 
+w1 w1 _1 w3 w4 
+_2 w5 w5 w3 w4 
+
+103 ('w5', 0, -1) Left
+g1 w2 r  r  g3 
+g2 w2 r  r  g4 
+w1 w1 _1 w3 w4 
+w5 w5 _2 w3 w4 
+
+104 ('w3', 0, -1) Left
+g1 w2 r  r  g3 
+g2 w2 r  r  g4 
+w1 w1 w3 _2 w4 
+w5 w5 w3 _1 w4 
+
+105 ('w4', 0, -1) Left
+g1 w2 r  r  g3 
+g2 w2 r  r  g4 
+w1 w1 w3 w4 _1 
+w5 w5 w3 w4 _2 
+
+106 ('g4', 2, 0) Down 2
+g1 w2 r  r  g3 
+g2 w2 r  r  _2 
+w1 w1 w3 w4 _1 
+w5 w5 w3 w4 g4 
+
+107 ('g3', 2, 0) Down 2
+g1 w2 r  r  _1 
+g2 w2 r  r  _2 
+w1 w1 w3 w4 g3 
+w5 w5 w3 w4 g4 
+
+108 ('r', 0, 1) Right
+g1 w2 _1 r  r  
+g2 w2 _2 r  r  
+w1 w1 w3 w4 g3 
+w5 w5 w3 w4 g4 
+
+109 ('w3', -2, 0) Up 2
+g1 w2 w3 r  r  
+g2 w2 w3 r  r  
+w1 w1 _1 w4 g3 
+w5 w5 _2 w4 g4 
+
+110 ('w4', 0, -1) Left
+g1 w2 w3 r  r  
+g2 w2 w3 r  r  
+w1 w1 w4 _2 g3 
+w5 w5 w4 _1 g4 
+
+111 ('g4', 0, -1) Left
+g1 w2 w3 r  r  
+g2 w2 w3 r  r  
+w1 w1 w4 _2 g3 
+w5 w5 w4 g4 _1 
+
+112 ('g3', 1, 0) Down
+g1 w2 w3 r  r  
+g2 w2 w3 r  r  
+w1 w1 w4 _2 _1 
+w5 w5 w4 g4 g3 
+
+113 ('r', 1, 0) Down
+g1 w2 w3 _2 _1 
+g2 w2 w3 r  r  
+w1 w1 w4 r  r  
+w5 w5 w4 g4 g3 
+
